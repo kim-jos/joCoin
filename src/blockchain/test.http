@@ -1,0 +1,23 @@
+GET http://localhost:3000/blockchain/
+content-type: application/json
+
+###
+POST http://localhost:3000/blockchain/addBlock
+content-type: application/json
+
+{
+    "joe": "send 4",
+    "paul": "receive 4"
+}
+
+###
+GET http://localhost:3000/blockchain/peers
+content-type: application/json
+
+###
+POST http://localhost:3000/blockchain/addPeer/
+content-type: application/json
+
+{
+    "hi": "hi"
+}
